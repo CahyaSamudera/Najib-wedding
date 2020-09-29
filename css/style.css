@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Questrial&family=Sacramento&display=swap');
 
 /* default style */
 
@@ -65,10 +66,10 @@ footer {
   font-size: 45px;
   color: #000000;
   font-weight: 700;
-  font-family: 'Great Vibes', cursive;
   letter-spacing: 2px;
   margin: 0;
   text-transform: capitalize;
+  font-family: 'Sacramento', cursive;
 }
 .btn-1 {
   padding: 10px 35px;
@@ -164,7 +165,7 @@ footer {
   font-size: 30px;
   color: #000000;
   font-weight: bold;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Sacramento', cursive;
   letter-spacing: 2px;
   text-transform: uppercase;
   transition: all 0.5s ease;
@@ -275,16 +276,16 @@ footer {
 .home-section .home-content {
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 100px 15px 0;
+  padding: 150px 15px 0;
   text-align: center;
 }
 
 .home-section .home-content p {
-  font-size: 45px;
+  font-size: 60px;
   color: #ffffff;
   margin: 0 0 15px;
-  font-family: 'Great Vibes', cursive;
-  text-shadow: 1px 1px #f38181;
+  font-family: 'Sacramento', cursive;
+  text-shadow: 3px 3px #f38181;
   font-weight: 800;
 }
 .home-section .slide.active .home-content p {
@@ -301,12 +302,12 @@ footer {
   }
 }
 .home-section .home-content h1 {
-  font-size: 80px;
+  font-size: 100px;
   color: #ffffff;
   margin: 0;
-  font-weight: normal;
-  font-family: 'Great Vibes', cursive;
-  text-shadow: 1px 1px #f38181;
+  font-weight: large;
+  font-family: 'Sacramento', cursive;
+  text-shadow: 3px 3px #f38181;
 }
 .home-section .slide.active .home-content h1 {
   opacity: 0;
@@ -314,14 +315,16 @@ footer {
   animation-delay: 0.5s;
 }
 .home-section .home-content span {
-  font-size: 30px;
+  font-size: 50px;
   display: inline-block;
-  border: 2px solid #ffffff;
+  border: 3px solid #ffffff;
   border-radius: 30px;
   color: #ffffff;
   padding: 7px 30px;
   margin: 15px 0 0;
-  text-shadow: 1px 1px #f38181;
+  font-weight: large;
+  text-shadow: 2px 2px #f38181;
+  font-family: 'Sacramento', cursive;
 }
 
 .home-section .slide.active .home-content span {
@@ -337,13 +340,13 @@ footer {
   font-size: 45px;
   color: #000000;
   font-weight: 700;
-  font-family: 'Great Vibes', cursive;
+  /* font-family: 'Great Vibes', cursive; */
   letter-spacing: 2px;
   margin: 0;
   text-transform: capitalize;
 }
 .opening-section p {
-  font-family: 'Cookie', cursive;
+  font-family: 'Questrial', sans-serif !important;
   font-size: 25px !important;
 }
 
@@ -386,7 +389,7 @@ footer {
 .couple-section .couple h3 {
   font-size: 40px;
   margin: 15px 0;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Sacramento', cursive;
   font-weight: normal;
   letter-spacing: 2px;
 }
@@ -396,14 +399,14 @@ footer {
   line-height: 26px;
   color: #555555;
   margin: 0;
-  font-family: 'Playball', cursive;
+  font-family: 'Questrial', sans-serif !important;
 }
 .couple-section .couple p {
   font-size: 20px;
   line-height: 26px;
   color: #555555;
   margin: 0;
-  font-family: 'Playball', cursive;
+  font-family: 'Questrial', sans-serif !important;
 }
 .couple-section .social-links {
   padding-top: 30px;
@@ -505,6 +508,12 @@ footer {
 .protocol-info ol li {
   text-align: justify;
   text-justify: inter-word;
+  font-family: 'Questrial', sans-serif !important;
+}
+.protocol-info .english-info h6,
+.protocol-info .english-info ol li {
+  font-style: italic;
+  font-family: 'Questrial', sans-serif !important;
 }
 
 /* gallery section */
@@ -530,6 +539,9 @@ footer {
 }
 
 /* gallery-popup */
+.gallery-section h3 {
+  font-family: 'Sacramento', cursive;
+}
 .gallery-popup {
   cursor: zoom-out;
   position: fixed;
@@ -628,7 +640,7 @@ footer {
   margin: 10px 0 0;
   font-size: 20px;
   line-height: 26px;
-  font-family: 'Playball', cursive;
+  font-family: 'Questrial', sans-serif !important;
 }
 .rsvp-section .rsvp-form {
   flex: 0 0 100%;
@@ -676,8 +688,9 @@ footer {
 }
 
 .stream-section p {
-  font-family: 'Playball', cursive;
+  font-family: 'Questrial', sans-serif;
   font-size: 20px;
+  font-style: italic;
 }
 /* footer */
 .footer {
