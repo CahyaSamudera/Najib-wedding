@@ -772,6 +772,7 @@ body.dark .header.fixed .hamburger-btn,
 body.dark .header.fixed {
   background-color: #222222;
 }
+body.dark .gallery-section .section-title h3,
 body.dark .footer .footer-content p,
 body.dark .footer .footer-content .couple-name h2,
 body.dark .rsvp-section .form .input-control,
