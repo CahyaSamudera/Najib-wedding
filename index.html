@@ -305,11 +305,12 @@
         </div>
         <div class="row">
           <div class="rsvp-form">
-            <form class="form" method="POST" data-netlify="true">
+            <form class="form" name="contact" method="POST" data-netlify="true">
               <div class="row">
                 <div class="input-group w50">
                   <input
                     type="text"
+                    name="name"
                     placeholder="Name"
                     class="input-control"
                     required
@@ -318,6 +319,7 @@
                 <div class="input-group w50">
                   <input
                     type="text"
+                    name="phone"
                     placeholder="Phone Number"
                     class="input-control"
                     required
@@ -326,7 +328,7 @@
               </div>
               <div class="row">
                 <div class="input-group">
-                  <select class="input-control" required>
+                  <select class="input-control" name="number[]" required>
                     <option value="attending">I am attending: at the</option>
                     <option value="venue">Venue</option>
                     <option value="virtually">Virtually</option>
@@ -335,7 +337,7 @@
               </div>
               <div class="row">
                 <div class="input-group">
-                  <select class="input-control" required>
+                  <select class="input-control" name="number[]" required>
                     <option value="">Number of Guest</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -349,6 +351,7 @@
                 <div class="input-group">
                   <textarea
                     class="input-control"
+                    name="message"
                     placeholder="Message"
                   ></textarea>
                 </div>
