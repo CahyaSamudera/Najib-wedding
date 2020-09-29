@@ -42,10 +42,20 @@
   .home-section .home-content h1 {
     font-size: 60px;
   }
+  .home-section .home-content p {
+    font-size: 45px;
+  }
+  .home-section .slide.active .home-content span {
+    font-size: 35px;
+  }
+
   .couple-section .couple {
     flex: 0 0 100%;
     max-width: 100%;
     padding: 0 15px;
+  }
+  .couple-section .section-title p {
+    font-size: 18px !important;
   }
   .couple-section .couple:nth-child(2) {
     margin-top: 50px;
@@ -91,9 +101,6 @@
 @media (max-width: 574px) {
   .rsvp-section .form {
     padding: 40px 0px;
-  }
-  .home-section .home-content h1 {
-    font-size: 40px;
   }
   .rsvp-section .form .input-group.w50,
   .gallery-section .gallery-item,
