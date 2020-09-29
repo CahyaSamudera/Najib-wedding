@@ -308,19 +308,25 @@
             <form class="form" method="POST" data-netlify="true">
               <div class="row">
                 <div class="input-group w50">
-                  <input type="text" placeholder="Name" class="input-control" />
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    class="input-control"
+                    required
+                  />
                 </div>
                 <div class="input-group w50">
                   <input
                     type="text"
                     placeholder="Phone Number"
                     class="input-control"
+                    required
                   />
                 </div>
               </div>
               <div class="row">
                 <div class="input-group">
-                  <select class="input-control">
+                  <select class="input-control" required>
                     <option value="">I am attending: at the</option>
                     <option value="venue">Venue</option>
                     <option value="virtually">Virtually</option>
@@ -329,7 +335,7 @@
               </div>
               <div class="row">
                 <div class="input-group">
-                  <select class="input-control">
+                  <select class="input-control" required>
                     <option value="">Number of Guest</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
