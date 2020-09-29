@@ -1,7 +1,7 @@
 const color = [
   {
     name: 'light frey',
-    code: '#e5d3b3',
+    code: '#D2691E',
     url: 'css/skins/pink.css',
   },
   {
