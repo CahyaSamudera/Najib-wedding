@@ -98,6 +98,9 @@
   .story-section .story-item:nth-child(odd) .story-img {
     padding: 0 15px 0 50px;
   }
+  .opening-section h3 {
+    font-size: 25px !important;
+  }
 }
 
 @media (max-width: 574px) {

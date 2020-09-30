@@ -12,7 +12,7 @@ body.dark .header .nav ul li a.active,
 .header .nav ul li a.active,
 body.dark .header .nav ul li a:hover,
 .header .nav ul li a:hover {
-  color: #d2691e;
+  color: #5a3f11;
 }
 
 .btn-1,
@@ -20,11 +20,11 @@ body.dark .header .nav ul li a:hover,
 .event-section .event-item-inner:before,
 .couple-section .social-links a i,
 .couple-section .couple img {
-  border-color: #d2691e;
+  border-color: #5a3f11;
 }
 
 .preloader .loader:before {
-  border-right-color: #d2691e;
+  border-right-color: #5a3f11;
 }
 
 .setting .s-toggle-btn,
@@ -35,5 +35,5 @@ body.dark .people-section .filter-btn.active,
 .people-section .filter-btn.active,
 .event-section,
 .couple-section .social-links a:hover i {
-  background-color: #d2691e;
+  background-color: #5a3f11;
 }
