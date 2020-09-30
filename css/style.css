@@ -281,10 +281,10 @@ footer {
 }
 
 .home-section .home-content p {
-  font-size: 60px;
+  font-size: 50px;
   color: #ffffff;
   margin: 0 0 15px;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Questrial', sans-serif !important;
   /* text-shadow: 3px 3px #f38181; */
   font-weight: 800;
 }
@@ -432,6 +432,9 @@ footer {
 }
 
 /* Event section */
+.event-start {
+  background-color: #e5d3b3 !important;
+}
 .event-section {
   padding: 80px 0 130px;
 }
@@ -690,7 +693,6 @@ footer {
 .stream-section p {
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
-  font-style: italic;
 }
 /* footer */
 .footer {

@@ -43,7 +43,7 @@
     font-size: 60px;
   }
   .home-section .home-content p {
-    font-size: 45px;
+    font-size: 35px;
   }
   .home-section .slide.active .home-content span {
     font-size: 35px;
@@ -54,6 +54,8 @@
     max-width: 100%;
     padding: 0 15px;
   }
+  .stream-section p,
+  .opening-section p,
   .couple-section .section-title p {
     font-size: 18px !important;
   }
