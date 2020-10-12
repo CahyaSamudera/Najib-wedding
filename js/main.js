@@ -112,3 +112,12 @@ $(document).ready(function () {
     }
   });
 });
+
+const sendForm = document.querySelector('.send-form');
+sendForm.addEventListener('click', clickOutcome);
+
+function clickOutcome() {
+  alert(
+    'Maaf, acara pernikahan sudah selesai, anda sudah tidak bisa mengirim form.'
+  );
+}
